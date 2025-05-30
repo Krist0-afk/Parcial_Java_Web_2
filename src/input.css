@@ -1,0 +1,154 @@
+@import "tailwindcss";
+/* Contenedor del slider */
+
+.slider-container {
+
+ position: relative;
+
+ top: 50px;
+
+ width: 100%;
+
+ max-width: 800px;
+
+ margin: 32px auto;
+
+}
+
+
+
+/* Slider con flexbox */
+
+.slider {
+
+ display: flex;
+
+ overflow: hidden;
+
+}
+
+
+
+/* Cada slide individual */
+
+.slide {
+
+ width: 100%;
+
+ display: none;
+
+}
+
+
+
+/* Slide activo */
+
+.slide.active {
+
+ display: block;
+
+}
+
+
+
+/* Botones de navegacion del slider */
+
+.prev, .next {
+
+ position: absolute;
+
+ top: 50%;
+
+ transform: translateY(-50%);
+
+ background: rgba(0,0,0,0.5);
+
+ color: #fff;
+
+ border: none;
+
+ padding: 16px;
+
+ font-size: 32px;
+
+ cursor: pointer;
+
+}
+
+
+
+/* Flechas*/
+
+.prev {
+
+ left: 0;
+
+}
+
+.next {
+
+ right: 0;
+
+}
+
+
+
+/* Color flechas */
+
+.prev:hover, .next:hover {
+
+ background: rgba(0,0,0,0.8);
+
+}
+
+
+
+/* Linea de navegacion del slider */
+
+.lineas {
+
+ position: absolute;
+
+ bottom: 16px;
+
+ left: 50%;
+
+ transform: translateX(-50%);
+
+ display: flex;
+
+}
+
+
+
+/* Linea individual */
+
+.linea {
+
+ height: 2px;
+
+ width: 20px;
+
+ margin: 0 6px;
+
+ border-radius: 50%;
+
+ background: #fff;
+
+ opacity: .6;
+
+ cursor: pointer;
+
+}
+
+
+
+/* Linea ocupada */
+
+.linea.active {
+
+ background: #f1f1f1;
+
+ opacity: 1;
+
+}

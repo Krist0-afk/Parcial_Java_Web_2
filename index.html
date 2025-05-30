@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="bg-gray-100 flex flex-col min-h-screen text-white p-8" style="background: radial-gradient(circle, rgba(48,48,122,1) 0%, rgba(129,96,143,1) 100%)">
+
+    <!-- NAVBAR -->
+    <nav class="bg-indigo-600 text-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+          <span class="text-xl font-bold tracking-wide">PuertoGames</span>
+        </div>
+
+        <!-- Enlaces -->
+        <div class="hidden md:flex space-x-6 font-medium">
+          <a href="index.html" class="hover:text-gray-300">Inicio</a>
+          <a href="Producto.html" class="hover:text-gray-300">Videojuegos</a>
+          <a href="Contacto.html" class="hover:text-gray-300">Contacto</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--  CONTENIDO PRINCIPAL DE LA PÁGINA -->
+    <main class="flex-grow p-4">
+      <section class="text-center py-8">
+        <h1 class="text-4xl font-extrabold text-gray-800 mb-4">Bienvenido a PuertoGames 🎮</h1>
+        <p class="text-lg">Explora y descubre tu próximo videojuego favorito.</p>
+      </section>
+    </main>
+
+    <!-- HERO -->
+    <section class="bg-gradient-to-r from-gray-900 via-purple-900 to-black text-purple-300 py-20">
+      <div class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center space-y-8">
+        <div>
+          <img src="Imagenes/817897.jpg" alt="Videojuegos" class="w-full max-h-screen-ms h-auto object-cover rounded-lg shadow-lg">
+        </div>
+        <div class="space-y-6">
+          <h2 class="text-5xl font-extrabold leading-tight text-purple-400">¡Tu aventura comienza aquí!</h2>
+          <p class="text-lg max-w-xl mx-auto">Descubre los mejores videojuegos del momento. Ofertas exclusivas, lanzamientos anticipados y mucho más. ¡Juega como nunca antes!</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#shop" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-2xl transition shadow-lg">Ver Juegos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORÍAS -->
+    <h2 class="text-center text-4xl font-extrabold text-white my-10">💥 Categoría 💥</h2>
+    <section class="mb-16 bg-indigo-800 bg-opacity-40 rounded-3xl p-8 border-2 border-purple-600" style="background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)">
+      <div class="flex flex-wrap justify-center gap-6">
+        <!-- Tarjetas -->
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="Imagenes/images.jpg" alt="Acción" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Acción</h3>
+            <p class="text-gray-600 mb-4">Sumérgete en juegos llenos de adrenalina y combates intensos.</p>
+            <a href="Producto.html" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Ver Juegos</a>
+          </div>
+        </div>
+
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="Imagenes/fifa.jpg" alt="Deportes" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Deportes</h3>
+            <p class="text-gray-600 mb-4">Vive la emoción del fútbol, básquet, carreras y más.</p>
+            <a href="Producto.html" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Ver Juegos</a>
+          </div>
+        </div>
+
+        <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+          <img src="Imagenes/mineca.jpg" alt="Aventura" class="w-full h-48 object-cover">
+          <div class="p-4 flex flex-col justify-between flex-grow">
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Aventura</h3>
+            <p class="text-gray-600 mb-4">Explora mundos increíbles y vive historias épicas.</p>
+            <a href="Producto.html" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-center">Ver Juegos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTACADOS -->
+    <h2 class="text-center text-4xl font-extrabold text-white my-10">💣 Juegos Destacados 💣</h2>
+    <div class="flex flex-wrap justify-center gap-6 p-8 bg-gray-100 w-full rounded-lg shadow-lg" style="background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)">
+      <!-- Card 1 -->
+      <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+        <img src="https://wallpapers.com/images/hd/gta-5-1920x1080-7w931msxbe7m7m4y.jpg" alt="GTA V">
+        <div class="p-4 flex flex-col justify-between flex-grow">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">GTA V</h2>
+          <p class="text-gray-600 mb-4">Un juego de mundo abierto donde podrás explorar y jugar un modo historia lleno de acción y aventura.</p>
+          <details class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition">precio: $12.990</details>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+        <img src="https://wallpapers.com/images/hd/god-of-war-temple-of-lahkesis-k8xzjak6ab3jlyc3.jpg" alt="God of War 2">
+        <div class="p-4 flex flex-col justify-between flex-grow">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">God Of War 2</h2>
+          <p class="text-gray-600 mb-4">Un juego donde te enfrentarás a tus enemigos mejorando tus armas y equipamiento.</p>
+          <details class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition">Precio:$23.990</details>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="w-80 bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+        <img src="https://wallpapercave.com/wp/wp12817989.png" alt="CS2">
+        <div class="p-4 flex flex-col justify-between flex-grow">
+          <h2 class="text-xl font-bold text-gray-800 mb-2">CS2</h2>
+          <p class="text-gray-600 mb-4">Un juego shooter donde vivirás una adrenalina inolvidable.</p>
+          <details class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition">Precio: $19.990
+      </details>
+          
+        </div>
+      </div>
+    </div>
+
+  <footer class="bg-indigo-700 text-white mt-12">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="text-sm font-semibold">PuertoGames © 2025</span>
+      </div>
+      <div class="flex space-x-4 text-sm">
+        <a href="#" class="hover:underline">Términos</a>
+        <a href="#" class="hover:underline">Privacidad</a>
+        <a href="#" class="hover:underline">Soporte</a>
+      </div>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
